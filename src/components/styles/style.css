@@ -1,8 +1,17 @@
 .jumbotron {
-    background-color: #e0dad9;
-    color: #414249;
+  background-color: #060708; /* Dark Blue */
+  color: #ffffff;
+  opacity: 0.8;
+  padding: 100px 25px;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 4px;
 }
 
+.bg-2 { 
+  background-color: #060708; /* Dark Blue */
+  color: #ffffff;
+  opacity: 0.7;
+}
 
 /* .nav-tabs li a {
   color: #777;
@@ -33,4 +42,10 @@
 
 .container {
   padding: 80px 120px;
+}
+
+img {
+  display:inline;
+  width: 350;
+  height: 350;
 }
