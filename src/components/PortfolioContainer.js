@@ -33,15 +33,12 @@ export default function PortfolioContainer() {
         style={{
           backgroundImage: `url(${Image})`,
           backgroundRepeat: "no-repeat",
+          backgroundPosition: "center",
           filter: "grayscale(90%)",
           width: "100%",
-          margin: "auto",
-          // backgroundSize: "contain",
+          height: "100%",
         }}
       >
-        {/* We are passing the currentPage from state and the function to update it */}
-
-        {/* Here we are calling the renderPage method which will return a component  */}
         {renderPage()}
       </div>
       <Footer />;

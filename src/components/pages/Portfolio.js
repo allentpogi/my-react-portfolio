@@ -1,17 +1,60 @@
-import React from 'react';
+import React from "react";
+import Image1 from "../../images/homework1.JPG";
 
 export default function About() {
   return (
-    <div>
-      <h1>About Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
+    <div className="jumbotron text-center">
+      <div>
+        <h1 className="margin-bottom">My portfolio</h1>
+        <div className="row margin-bottom">
+          <div className="col-sm-4">
+            <p>HTML, CSS, and Git: Code Refactor</p>
+            <img src={Image1} className="img-responsive margin" alt="HW1" />
+          </div>
+          <div className="col-sm-4">
+            <p>Advanced CSS: Portfolio</p>
+            <img
+              src={Image1}
+              className="img-responsive margin"
+              // style="width:100%"
+              alt="HW2"
+            />
+          </div>
+          <div className="col-sm-4">
+            <p>JavaScript: Password Generator</p>
+            <img
+              src={Image1}
+              className="img-responsive margin"
+              // style="width:100%"
+              alt="HW3"
+            />
+          </div>
+        </div>
+        <div className="row margin-bottom">
+          <div className="col-sm-4">
+            <p>Web APIs: Code Quiz</p>
+            <img src={Image1} className="img-responsive margin" alt="HW1" />
+          </div>
+          <div className="col-sm-4">
+            <p>Third-Party APIs: Work Day Scheduler</p>
+            <img
+              src={Image1}
+              className="img-responsive margin"
+              // style="width:100%"
+              alt="HW2"
+            />
+          </div>
+          <div className="col-sm-4">
+            <p>Server-Side APIs: Weather Dashboard</p>
+            <img
+              src={Image1}
+              className="img-responsive margin"
+              // style="width:100%"
+              alt="HW3"
+            />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

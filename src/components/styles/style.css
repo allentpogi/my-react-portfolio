@@ -1,21 +1,24 @@
 .jumbotron {
-  background-color: #060708; /* Dark Blue */
+  background-color: #060708;
   color: #ffffff;
   opacity: 0.8;
   padding: 100px 25px;
   font-family: Montserrat, sans-serif;
   letter-spacing: 4px;
+  height: 100%;
+}
+
+.jumbotron p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
 }
 
 .bg-2 { 
-  background-color: #060708; /* Dark Blue */
+  background-color: #060708;
   color: #ffffff;
   opacity: 0.7;
 }
-
-/* .nav-tabs li a {
-  color: #777;
-} */
 
 .navbar {
   font-family: Montserrat, sans-serif;
@@ -25,17 +28,23 @@
   font-size: 11px !important;
   letter-spacing: 4px;
   opacity: 0.9;
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
 }
+
 .navbar li a, .navbar .navbar-brand { 
   color: #d5d5d5 !important;
 }
+
 .nav-link:hover {
   color: #c0b9b9 !important;
 }
+
 .nav-link.active {
   color: #fff !important;
   background-color: #1a1a1d !important;
 }
+
 .navbar-default .navbar-toggle {
   border-color: transparent;
 }
@@ -44,8 +53,34 @@
   padding: 80px 120px;
 }
 
-img {
-  display:inline;
-  width: 350;
-  height: 350;
+.img-circle {
+  border-radius: 10%;
+}
+
+.img-responsive {
+  /* display: block; */
+  max-width: 100%;
+  height: auto;
+}
+
+.margin-top {
+  margin-top: 2rem;
+}
+
+.margin-bottom {
+  margin-bottom: 2rem;
+}
+
+.footer {
+  font-family: Montserrat, sans-serif;
+  margin-bottom: 0;
+  background-color: #2d2d30;
+  border: 0;
+  font-size: 11px !important;
+  letter-spacing: 4px;
+  opacity: 0.9;
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+  box-shadow: 0 50vh 0 50vh #2d2d30;
+  color: #d5d5d5
 }

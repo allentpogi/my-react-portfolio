@@ -4,8 +4,8 @@ import Image from "../../images/avatar.JPG";
 
 export default function About() {
   return (
-    <div>
-      <div className="jumbotron text-center">
+    <div className="jumbotron">
+      <div className="text-center container-fluid">
         <div>
           <img
             src={Image}
@@ -13,14 +13,14 @@ export default function About() {
             alt="avatar"
           />
         </div>
-        <h1>About me</h1>
+        <h1 className="margin-top">I'm Allen.</h1>
+        <p>I am on a quest to become a full stack developer extraordinaire.</p>
+        <p>Armed with a keyboard and my love for problem-solving,</p>
         <p>
-          I'm Allen. I am currently on an exciting jour full stack developer.
+          I dive headfirst into the vast ocean of programming languages,
+          frameworks, and databases.
         </p>
-        <p>
-          This is my first attempt to build a portfolio website showcasing my
-          completed work during the coding bootcamp.
-        </p>
+        <p></p>
       </div>
     </div>
   );
