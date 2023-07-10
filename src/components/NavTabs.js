@@ -8,12 +8,10 @@ function NavTabs({ currentPage, handlePageChange }) {
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#myPage">
-            Allen Tuazon
-          </a>
+          <p class="navbar-brand">Allen Tuazon</p>
         </div>
-        <ul class="nav navbar-nav navbar-right">
-          <li class="nav-item">
+        <ul class="nav">
+          <li>
             <a
               href="#about-me"
               onClick={() => handlePageChange("About")}
@@ -24,7 +22,7 @@ function NavTabs({ currentPage, handlePageChange }) {
               About me
             </a>
           </li>
-          <li class="nav-item">
+          <li>
             <a
               href="#portfolio"
               onClick={() => handlePageChange("Portfolio")}
@@ -36,7 +34,7 @@ function NavTabs({ currentPage, handlePageChange }) {
               Portfolio
             </a>
           </li>
-          <li class="nav-item">
+          <li>
             <a
               href="#my-resume"
               onClick={() => handlePageChange("Resume")}
@@ -46,7 +44,7 @@ function NavTabs({ currentPage, handlePageChange }) {
               My resume
             </a>
           </li>
-          <li class="nav-item">
+          <li>
             <a
               href="#contact-me"
               onClick={() => handlePageChange("Contact")}

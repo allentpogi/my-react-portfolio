@@ -4,9 +4,9 @@
 }
 
 
-.nav-tabs li a {
+/* .nav-tabs li a {
   color: #777;
-}
+} */
 
 .navbar {
   font-family: Montserrat, sans-serif;
@@ -20,13 +20,17 @@
 .navbar li a, .navbar .navbar-brand { 
   color: #d5d5d5 !important;
 }
-.navbar-nav li a:hover {
-  color: #fff !important;
+.nav-link:hover {
+  color: #c0b9b9 !important;
 }
-.navbar-nav li.active a {
+.nav-link.active {
   color: #fff !important;
-  background-color: #29292c !important;
+  background-color: #1a1a1d !important;
 }
 .navbar-default .navbar-toggle {
   border-color: transparent;
+}
+
+.container {
+  padding: 80px 120px;
 }
