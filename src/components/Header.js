@@ -5,7 +5,7 @@ import "./styles/style.css";
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <nav className="navbar navbar-default navbar-fixed-top">
+    <nav className="navbar">
       <div className="container-fluid">
         <div className="navbar-header">
           <p className="navbar-brand">Allen Tuazon</p>
@@ -45,7 +45,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                 currentPage === "Resume" ? "nav-link active" : "nav-link"
               }
             >
-              My resume
+              Resume
             </a>
           </li>
           <li>
@@ -57,7 +57,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                 currentPage === "Contact" ? "nav-link active" : "nav-link"
               }
             >
-              Contact me
+              Contact
             </a>
           </li>
         </ul>

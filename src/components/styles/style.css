@@ -1,16 +1,16 @@
 .jumbotron {
-  background-color: #060708;
+  /* background-color: #060708; */
   color: #ffffff;
-  opacity: 0.8;
-  padding: 100px 25px;
+  /* opacity: 0.8; */
+  padding: 3.5rem 1.5rem;
   font-family: Montserrat, sans-serif;
   letter-spacing: 4px;
   height: 100%;
 }
 
 .jumbotron p {
-  margin-bottom: 15px;
-  font-size: 21px;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
   font-weight: 200;
 }
 
@@ -27,7 +27,6 @@
   border: 0;
   font-size: 11px !important;
   letter-spacing: 4px;
-  opacity: 0.9;
   padding-top: 1rem !important;
   padding-bottom: 1rem !important;
 }
@@ -50,7 +49,7 @@
 }
 
 .container {
-  padding: 80px 120px;
+  padding: 5rem 7.5rem;
 }
 
 .img-circle {
@@ -67,6 +66,44 @@
   margin-top: 2rem;
 }
 
+.img-carousel {
+  max-width: 70%;
+  height: auto;
+  opacity: 1;
+  filter: brightness(50%);
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.div-carousel {
+  padding-bottom: 3.5rem;
+}
+
+.div-carousel h3 {
+  font-family: Montserrat, sans-serif;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #ffffff;
+}
+
+.div-carousel h3:hover {
+  color: #d5d5db !important;
+}
+
+.div-carousel a {
+text-decoration: none;
+}
+
+
+
+.div-carousel p {
+  font-family: Montserrat, sans-serif;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #efeff7;
+}
+
 .margin-bottom {
   margin-bottom: 2rem;
 }
@@ -76,7 +113,7 @@
   margin-bottom: 0;
   background-color: #2d2d30;
   border: 0;
-  font-size: 11px !important;
+  font-size: 1rem !important;
   letter-spacing: 4px;
   opacity: 0.9;
   padding-top: 1rem !important;

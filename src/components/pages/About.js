@@ -13,7 +13,7 @@ export default function About() {
             alt="avatar"
           />
         </div>
-        <h1 className="margin-top">I'm Allen.</h1>
+        <h1 className="margin-top">I'm Allen. </h1>
         <p>I am on a quest to become a full stack developer extraordinaire.</p>
         <p>Armed with a keyboard and my love for problem-solving,</p>
         <p>

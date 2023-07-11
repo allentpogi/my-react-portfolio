@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import NavTabs from "./NavTabs";
+import NavTabs from "./Header";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
@@ -32,9 +32,9 @@ export default function PortfolioContainer() {
       <div
         style={{
           backgroundImage: `url(${Image})`,
-          backgroundRepeat: "no-repeat",
+          // backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
-          filter: "grayscale(90%)",
+          // filter: "grayscale(90%)",
           width: "100%",
           height: "100%",
         }}
