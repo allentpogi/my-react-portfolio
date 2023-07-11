@@ -1,24 +1,77 @@
-import React from 'react';
+import React from "react";
+import "../styles/style.css";
+import Resume from "../../files/AllenTuazonResumeFSD.docx";
+
+const styles = {
+  spanStyle: {
+    color: "#d5d5db",
+    fontFamily: "Montserrat, sans-serif",
+  },
+  hrefStyle: {
+    color: "#9898b3",
+    fontFamily: "Montserrat, sans-serif",
+    textDecoration: "none",
+    fontWeight: "bolder",
+  },
+};
 
 export default function Blog() {
   return (
-    <div>
-      <h1>Blog Page</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
+    <div className="jumbotron text-center container-fluid">
+      <h1 className="margin-bottom">Resume</h1>
+      <div>
+        <p>
+          <span style={styles.spanStyle}>Programming Languages:</span>
+          JavaScript
+        </p>
+        <p>
+          <span style={styles.spanStyle}>Front-End Development:</span> HTML,
+          CSS, Bootstrap, jQuery, React
+        </p>
+        <p>
+          <span style={styles.spanStyle}>Back-End Development:</span> Node.js
+        </p>
+        <p>
+          <span style={styles.spanStyle}>Databases:</span> MySQL, MongoDB
+        </p>
+        <p>
+          <span style={styles.spanStyle}>Object-Relational Mapping(ORM):</span>
+          Mongoose, Sequelize
+        </p>
+        <p>
+          <span style={styles.spanStyle}>GraphQL:</span> ApolloDB
+        </p>
+        <p>
+          <span style={styles.spanStyle}>Web Frameworks:</span> Express.js,
+          React.js
+        </p>
+        <p>
+          <span style={styles.spanStyle}>Version Control:</span> Git
+        </p>
+        <p>
+          <span style={styles.spanStyle}>Agile Development:</span> Scrum, Kanban
+        </p>
+        <p>
+          <span style={styles.spanStyle}>Deployment:</span> Heroku
+        </p>
+        <p>
+          <span style={styles.spanStyle}>Testing:</span> Jest
+        </p>
+        <p>
+          <span style={styles.spanStyle}>Project Management:</span> Jira, Trello
+        </p>
+        <p className="margin-bottom">
+          <span style={styles.spanStyle}>Collaboration Tools:</span> Slack,
+          GitHub
+        </p>
+      </div>
+      <h2>
+        Click{" "}
+        <a style={styles.hrefStyle} href={Resume}>
+          here
+        </a>{" "}
+        to download a copy of my resume.
+      </h2>
     </div>
   );
 }

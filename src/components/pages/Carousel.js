@@ -21,11 +21,10 @@ function ControlledCarousel() {
         <img className="img-carousel" src={Image1} alt="First slide" />
         <Carousel.Caption>
           <a
-            className="btn btn-link"
             target="blank"
             href="https://allentpogi.github.io/wk1-challenge-allen/"
           >
-            <h3>HTML, CSS, and Git: Code Refactor</h3>
+            <p className="carousel-text">HTML, CSS, and Git: Code Refactor</p>
           </a>
         </Carousel.Caption>
       </Carousel.Item>
@@ -33,11 +32,10 @@ function ControlledCarousel() {
         <img className="img-carousel" src={Image2} alt="Second slide" />
         <Carousel.Caption>
           <a
-            className="btn btn-link"
             target="blank"
             href="https://allentpogi.github.io/generate-password-app/"
           >
-            <h3>JavaScript: Password Generator</h3>
+            <p className="carousel-text">JavaScript: Password Generator</p>
           </a>
         </Carousel.Caption>
       </Carousel.Item>
@@ -45,11 +43,10 @@ function ControlledCarousel() {
         <img className="img-carousel" src={Image3} alt="Third slide" />
         <Carousel.Caption>
           <a
-            className="btn btn-link"
             target="blank"
             href="https://allentpogi.github.io/wk4-webapi-code-quiz/index.html"
           >
-            <h3>Web APIs: Code Quiz</h3>
+            <p className="carousel-text">Web APIs: Code Quiz</p>
           </a>
         </Carousel.Caption>
       </Carousel.Item>
@@ -57,11 +54,12 @@ function ControlledCarousel() {
         <img className="img-carousel" src={Image4} alt="Fourth slide" />
         <Carousel.Caption>
           <a
-            className="btn btn-link"
             target="blank"
             href="https://allentpogi.github.io/wk5-work-day-scheduler/"
           >
-            <h3>Third-Party APIs: Work Day Scheduler</h3>
+            <p className="carousel-text">
+              Third-Party APIs: Work Day Scheduler
+            </p>
           </a>
         </Carousel.Caption>
       </Carousel.Item>
@@ -69,23 +67,18 @@ function ControlledCarousel() {
         <img className="img-carousel" src={Image5} alt="Fifth slide" />
         <Carousel.Caption>
           <a
-            className="btn btn-link"
             target="blank"
             href="https://allentpogi.github.io/wk6-5day-weather-forecast/"
           >
-            <h3>Server-Side APIs: Weather Dashboard</h3>
+            <p className="carousel-text">Server-Side APIs: Weather Dashboard</p>
           </a>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img className="img-carousel" src={Image6} alt="Sixth slide" />
         <Carousel.Caption>
-          <a
-            className="btn btn-link"
-            target="blank"
-            href="https://allentpogi.github.io/my-portfolio/"
-          >
-            <h3>Advanced CSS: Portfolio</h3>
+          <a target="blank" href="https://allentpogi.github.io/my-portfolio/">
+            <p className="carousel-text">Advanced CSS: Portfolio</p>
           </a>
         </Carousel.Caption>
       </Carousel.Item>

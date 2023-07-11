@@ -1,22 +1,59 @@
-import React from 'react';
+import React from "react";
+import "../styles/style.css";
 
 export default function Contact() {
   return (
-    <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+    <div id="contact" className="jumbotron text-center container-fluid">
+      <h1 className="margin-bottom">Contact</h1>
+      <div className="row">
+        <div className="col-sm-12 text-center">
+          <p>Leave a message and I'll get back to you the soonest I can.</p>
+        </div>
+        <div className="col-sm-12">
+          <div className="contact-form">
+            <div className="row">
+              <div className="col-sm-4">
+                <input
+                  className="form-control"
+                  id="name"
+                  name="name"
+                  placeholder="Name"
+                  type="text"
+                  required
+                />
+              </div>
+              <div className="col-sm-4">
+                <input
+                  className="form-control"
+                  id="email"
+                  name="email"
+                  placeholder="Email"
+                  type="email"
+                  required
+                />
+              </div>
+            </div>
+            <div className="row margin-bottom">
+              <div className="col-sm-8">
+                <textarea
+                  className="form-control"
+                  id="comments"
+                  name="comments"
+                  placeholder="<Message>"
+                  rows="15"
+                ></textarea>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-sm-1">
+              <button className="btn-form margin-bottom" type="submit">
+                Send
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
