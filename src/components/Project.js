@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import NavTabs from "./Header";
 import PortfolioContainer from "./Navigation";
 import Footer from "./Footer";
@@ -8,6 +8,10 @@ import "./styles/style.css";
 export default function Project() {
   const [currentPage, setCurrentPage] = useState("About");
   const handlePageChange = (page) => setCurrentPage(page);
+
+  useEffect(() => {
+    document.title = "AllenPogi's portfolio";
+  }, []);
 
   return (
     <div className="bg">

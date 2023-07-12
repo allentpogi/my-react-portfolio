@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.ed37688a.css",
-    "main.js": "/static/js/main.83da26ac.js",
-    "static/media/homework1.JPG": "/static/media/homework1.dc599b6c7bed72a02fc5.JPG",
-    "static/media/wallpaperflare.com_wallpaper.jpg": "/static/media/wallpaperflare.com_wallpaper.efaeedd3f678cf49529a.jpg",
-    "static/media/homework6.JPG": "/static/media/homework6.4bb92a0578a56d248f3e.JPG",
-    "static/media/homework5.JPG": "/static/media/homework5.8c4bd11516f6c9b92680.JPG",
-    "static/media/homework4.JPG": "/static/media/homework4.c3c6fcd25ea2a9c4f3c1.JPG",
-    "static/media/homework2.JPG": "/static/media/homework2.b1e185ecf99d30ec8add.JPG",
-    "static/media/homework3.JPG": "/static/media/homework3.0605c3ca60e43e7c573c.JPG",
-    "static/media/AllenTuazonResumeFSD.docx": "/static/media/AllenTuazonResumeFSD.d5aeb2f0f5d63f042493.docx",
-    "static/media/avatar.JPG": "/static/media/avatar.5a41258b79334559b5cd.JPG",
-    "index.html": "/index.html",
-    "main.ed37688a.css.map": "/static/css/main.ed37688a.css.map",
-    "main.83da26ac.js.map": "/static/js/main.83da26ac.js.map"
+    "main.css": "/my-react-portfolio/static/css/main.cbf7fb99.css",
+    "main.js": "/my-react-portfolio/static/js/main.74c29ab0.js",
+    "static/media/homework1.JPG": "/my-react-portfolio/static/media/homework1.dc599b6c7bed72a02fc5.JPG",
+    "static/media/wallpaperflare.com_wallpaper.jpg": "/my-react-portfolio/static/media/wallpaperflare.com_wallpaper.efaeedd3f678cf49529a.jpg",
+    "static/media/homework6.JPG": "/my-react-portfolio/static/media/homework6.4bb92a0578a56d248f3e.JPG",
+    "static/media/homework5.JPG": "/my-react-portfolio/static/media/homework5.8c4bd11516f6c9b92680.JPG",
+    "static/media/homework4.JPG": "/my-react-portfolio/static/media/homework4.c3c6fcd25ea2a9c4f3c1.JPG",
+    "static/media/homework2.JPG": "/my-react-portfolio/static/media/homework2.b1e185ecf99d30ec8add.JPG",
+    "static/media/homework3.JPG": "/my-react-portfolio/static/media/homework3.0605c3ca60e43e7c573c.JPG",
+    "static/media/AllenTuazonResumeFSD.docx": "/my-react-portfolio/static/media/AllenTuazonResumeFSD.d5aeb2f0f5d63f042493.docx",
+    "static/media/avatar.JPG": "/my-react-portfolio/static/media/avatar.5a41258b79334559b5cd.JPG",
+    "index.html": "/my-react-portfolio/index.html",
+    "main.cbf7fb99.css.map": "/my-react-portfolio/static/css/main.cbf7fb99.css.map",
+    "main.74c29ab0.js.map": "/my-react-portfolio/static/js/main.74c29ab0.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed37688a.css",
-    "static/js/main.83da26ac.js"
+    "static/css/main.cbf7fb99.css",
+    "static/js/main.74c29ab0.js"
   ]
 }
