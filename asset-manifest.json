@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-react-portfolio/static/css/main.cbf7fb99.css",
-    "main.js": "/my-react-portfolio/static/js/main.74c29ab0.js",
+    "main.js": "/my-react-portfolio/static/js/main.9c62ab62.js",
     "static/media/homework1.JPG": "/my-react-portfolio/static/media/homework1.dc599b6c7bed72a02fc5.JPG",
     "static/media/wallpaperflare.com_wallpaper.jpg": "/my-react-portfolio/static/media/wallpaperflare.com_wallpaper.efaeedd3f678cf49529a.jpg",
     "static/media/homework6.JPG": "/my-react-portfolio/static/media/homework6.4bb92a0578a56d248f3e.JPG",
@@ -13,10 +13,10 @@
     "static/media/avatar.JPG": "/my-react-portfolio/static/media/avatar.5a41258b79334559b5cd.JPG",
     "index.html": "/my-react-portfolio/index.html",
     "main.cbf7fb99.css.map": "/my-react-portfolio/static/css/main.cbf7fb99.css.map",
-    "main.74c29ab0.js.map": "/my-react-portfolio/static/js/main.74c29ab0.js.map"
+    "main.9c62ab62.js.map": "/my-react-portfolio/static/js/main.9c62ab62.js.map"
   },
   "entrypoints": [
     "static/css/main.cbf7fb99.css",
-    "static/js/main.74c29ab0.js"
+    "static/js/main.9c62ab62.js"
   ]
 }
