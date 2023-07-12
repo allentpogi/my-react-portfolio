@@ -1,3 +1,30 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url(/src/images/wallpaperflare.com_wallpaper.jpg);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  -ms-flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+  /* background: orange; */
+}
+
 .jumbotron {
   /* background-color: #060708; */
   color: #ffffff;
@@ -13,14 +40,6 @@
   font-size: 1.5rem;
   font-weight: 200;
 }
-
-.bg-2 { 
-  background-color: #060708;
-  color: #ffffff;
-  opacity: 0.7;
-}
-
-
 
 .navbar {
   font-family: Montserrat, sans-serif;
@@ -69,7 +88,7 @@
 }
 
 .img-carousel {
-  max-width: 70%;
+  max-width: 67%;
   height: auto;
   opacity: 1;
   filter: brightness(50%);
@@ -123,11 +142,12 @@ text-decoration: none;
   border: 0;
   font-size: 1rem !important;
   letter-spacing: 4px;
-  opacity: 0.9;
   padding-top: 1rem !important;
   padding-bottom: 1rem !important;
   box-shadow: 0 50vh 0 50vh #2d2d30;
-  color: #b3a8a8
+  color: #b3a8a8;
+  height: 5rem;
+  margin-top: auto;
 }
 
 .contact-form{
@@ -148,6 +168,7 @@ text-decoration: none;
   color: #d5d5d5 !important;
   justify-content: right;
   border-radius: 1em;
+  margin-top: 1rem;
 }
 
 .btn-form:hover {

@@ -3,7 +3,7 @@ import "./styles/style.css";
 
 function Footer() {
   return (
-    <footer className="container-fluid footer text-center">
+    <footer className="footer text-center">
       <p>&copy; 2023 Allen Tuazon</p>
     </footer>
   );
