@@ -28,6 +28,7 @@ Run the command **npm start** on the terminal to start the application."
 The program is deployed to github pages.
 URL: https://allentpogi.github.io/my-react-portfolio/
 
+
 ## Screenshot
 
 Below is a screenshot of the applicatione.
@@ -56,7 +57,7 @@ This program showcases my full stack developer portfolio and my previous project
 n/a
 
 ## Tests
-N/A
+n/a
 
 ## Email address
 a.t@gmail.com
