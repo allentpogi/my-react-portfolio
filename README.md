@@ -26,7 +26,7 @@ Run the command **npm start** on the terminal to start the application."
 
 ## Usage
 The program is deployed to github pages.
-URL: TBC
+URL: https://allentpogi.github.io/my-react-portfolio/
 
 ## Screenshot
 
