@@ -12,26 +12,18 @@ export default function Contact() {
         <div className="col-sm-12">
           <div className="contact-form">
             <div className="row">
-              <div className="col-sm-4">
-                <input
-                  className="form-control"
-                  id="name"
-                  name="name"
-                  placeholder="Name"
-                  type="text"
-                  required
-                />
-              </div>
-              <div className="col-sm-4">
-                <input
-                  className="form-control"
-                  id="email"
-                  name="email"
-                  placeholder="Email"
-                  type="email"
-                  required
-                />
-              </div>
+              {["name", "email"].map((name) => (
+                <div className="col-sm-4" key={name}>
+                  <input
+                    className="form-control"
+                    id={name}
+                    name={name}
+                    placeholder={name.charAt(0).toUpperCase() + name.slice(1)}
+                    type={name === "email" ? "email" : "text"}
+                    required
+                  />
+                </div>
+              ))}
             </div>
             <div className="row margin-bottom">
               <div className="col-sm-8">

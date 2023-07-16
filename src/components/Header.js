@@ -2,6 +2,13 @@ import React from "react";
 import "./styles/style.css";
 
 function NavTabs({ currentPage, handlePageChange }) {
+  const menuItems = [
+    { name: "About", href: "#about-me", text: "About me" },
+    { name: "Portfolio", href: "#portfolio", text: "Portfolio" },
+    { name: "Resume", href: "#my-resume", text: "Resume" },
+    { name: "Contact", href: "#contact-me", text: "Contact" },
+  ];
+
   return (
     <nav className="navbar">
       <div className="nav-flex container-fluid">
@@ -9,50 +16,19 @@ function NavTabs({ currentPage, handlePageChange }) {
           <p className="navbar-brand">Allen Tuazon</p>
         </div>
         <ul className="nav">
-          <li>
-            <a
-              href="#about-me"
-              onClick={() => handlePageChange("About")}
-              className={
-                currentPage === "About" ? "nav-link active" : "nav-link"
-              }
-            >
-              About me
-            </a>
-          </li>
-          <li>
-            <a
-              href="#portfolio"
-              onClick={() => handlePageChange("Portfolio")}
-              className={
-                currentPage === "Portfolio" ? "nav-link active" : "nav-link"
-              }
-            >
-              Portfolio
-            </a>
-          </li>
-          <li>
-            <a
-              href="#my-resume"
-              onClick={() => handlePageChange("Resume")}
-              className={
-                currentPage === "Resume" ? "nav-link active" : "nav-link"
-              }
-            >
-              Resume
-            </a>
-          </li>
-          <li>
-            <a
-              href="#contact-me"
-              onClick={() => handlePageChange("Contact")}
-              className={
-                currentPage === "Contact" ? "nav-link active" : "nav-link"
-              }
-            >
-              Contact
-            </a>
-          </li>
+          {menuItems.map((menuItem) => (
+            <li key={menuItem.name}>
+              <a
+                href={menuItem.href}
+                onClick={() => handlePageChange(menuItem.name)}
+                className={
+                  currentPage === menuItem.name ? "nav-link active" : "nav-link"
+                }
+              >
+                {menuItem.text}
+              </a>
+            </li>
+          ))}
         </ul>
       </div>
     </nav>

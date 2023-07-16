@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/style.css";
-import Resume from "../../files/AllenTuazonResumeFSD.docx";
+import Resume from "../../files/AllenTuazonResumeFSD.pdf";
 
 const styles = {
   spanStyle: {
@@ -16,58 +16,78 @@ const styles = {
 };
 
 export default function Blog() {
+  const skills = [
+    {
+      label: "Programming Languages:",
+      values: ["JavaScript"],
+    },
+    {
+      label: "Front-End Development:",
+      values: ["HTML", "CSS", "Bootstrap", "jQuery", "React"],
+    },
+    {
+      label: "Back-End Development:",
+      values: ["Node.js"],
+    },
+    {
+      label: "Databases:",
+      values: ["MySQL", "MongoDB"],
+    },
+    {
+      label: "Object-Relational Mapping(ORM):",
+      values: ["Mongoose", "Sequelize"],
+    },
+    {
+      label: "GraphQL:",
+      values: ["ApolloDB"],
+    },
+    {
+      label: "Web Frameworks:",
+      values: ["Express.js", "React.js"],
+    },
+    {
+      label: "Version Control:",
+      values: ["Git"],
+    },
+    {
+      label: "Agile Development:",
+      values: ["Scrum", "Kanban"],
+    },
+    {
+      label: "Deployment:",
+      values: ["Heroku"],
+    },
+    {
+      label: "Testing:",
+      values: ["Jest"],
+    },
+    {
+      label: "Project Management:",
+      values: ["Jira", "Trello"],
+    },
+    {
+      label: "Collaboration Tools:",
+      values: ["Slack", "GitHub"],
+    },
+  ];
+
   return (
     <div className="jumbotron text-center container-fluid">
       <h1 className="margin-bottom">Resume</h1>
       <div>
-        <p>
-          <span style={styles.spanStyle}>Programming Languages:</span>
-          JavaScript
-        </p>
-        <p>
-          <span style={styles.spanStyle}>Front-End Development:</span> HTML,
-          CSS, Bootstrap, jQuery, React
-        </p>
-        <p>
-          <span style={styles.spanStyle}>Back-End Development:</span> Node.js
-        </p>
-        <p>
-          <span style={styles.spanStyle}>Databases:</span> MySQL, MongoDB
-        </p>
-        <p>
-          <span style={styles.spanStyle}>Object-Relational Mapping(ORM):</span>
-          Mongoose, Sequelize
-        </p>
-        <p>
-          <span style={styles.spanStyle}>GraphQL:</span> ApolloDB
-        </p>
-        <p>
-          <span style={styles.spanStyle}>Web Frameworks:</span> Express.js,
-          React.js
-        </p>
-        <p>
-          <span style={styles.spanStyle}>Version Control:</span> Git
-        </p>
-        <p>
-          <span style={styles.spanStyle}>Agile Development:</span> Scrum, Kanban
-        </p>
-        <p>
-          <span style={styles.spanStyle}>Deployment:</span> Heroku
-        </p>
-        <p>
-          <span style={styles.spanStyle}>Testing:</span> Jest
-        </p>
-        <p>
-          <span style={styles.spanStyle}>Project Management:</span> Jira, Trello
-        </p>
-        <p className="margin-bottom">
-          <span style={styles.spanStyle}>Collaboration Tools:</span> Slack,
-          GitHub
-        </p>
+        {skills.map((skill, i) => (
+          <p
+            key={skill.label}
+            className={skill.values.length > 1 ? "margin-bottom" : ""}
+          >
+            <span style={styles.spanStyle}>{skill.label}</span>{" "}
+            {skill.values.join(", ")}
+          </p>
+        ))}
       </div>
       <h2>
         Click{" "}
-        <a style={styles.hrefStyle} href={Resume}>
+        <a style={styles.hrefStyle} target="_blank" href={Resume}>
           here
         </a>{" "}
         to download a copy of my resume.
