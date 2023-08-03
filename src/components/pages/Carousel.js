@@ -7,6 +7,7 @@ import Image3 from "../../images/homework3.JPG";
 import Image4 from "../../images/homework4.JPG";
 import Image5 from "../../images/homework5.JPG";
 import Image6 from "../../images/homework6.JPG";
+import Image7 from "../../images/Project3.JPG";
 
 function ControlledCarousel() {
   const [index, setIndex] = useState(0);
@@ -51,6 +52,12 @@ function ControlledCarousel() {
       alt: "Sixth slide",
       link: "https://allentpogi.github.io/my-portfolio/",
       caption: "Advanced CSS: Portfolio",
+    },
+    {
+      image: Image7,
+      alt: "Seventh slide",
+      link: "https://pimp-your-pooch-2826a7e23bfe.herokuapp.com/",
+      caption: "MERN Stack Single-Page Application",
     },
   ];
 
